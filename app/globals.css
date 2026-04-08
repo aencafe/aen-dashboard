@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* On utilise les codes bruts pour éviter que le compilateur ne cherche le fichier config */
 body {
-  background-color: #F5F3E9; /* aen.beige */
-  color: #3A2724;            /* aen.marron */
+  font-family: var(--font-jakarta), sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Ton effet survol fluide */
+.nav-link { transition: all 0.4s ease; }
+.nav-link:hover { font-style: italic; letter-spacing: 0.05em; }
