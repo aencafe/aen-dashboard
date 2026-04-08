@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* On utilise les codes bruts pour éviter que le compilateur ne cherche le fichier config */
 body {
-  background-color: theme('colors.aen.beige');
-  color: theme('colors.aen.marron');
+  background-color: #F5F3E9; /* aen.beige */
+  color: #3A2724;            /* aen.marron */
 }
